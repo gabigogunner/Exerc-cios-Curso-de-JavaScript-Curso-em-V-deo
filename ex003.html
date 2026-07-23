@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro HTML</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            color: burlywood;
+            font-size: 20pt;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo</h1>
+    <h2>Seja bem-vindo</h2>
+    <script>
+        window.confirm("Para acessar, digite o seu nome.");
+        var nome = window.prompt("Nome:");
+        if (nome === "Gabriel") {
+            window.alert("Bem-vindo(a) ao meu primeiro código JavaScript.");
+        } else {
+            window.close();
+        }
+        var num1 = window.prompt("Digite um número: ")
+        var num2 = window.prompt("Digite outro: ")
+        var soma = Number.parseFloat(num1) + Number.parseFloat(num2)
+        window.alert("A soma é " + soma)
+    </script>
+</body>
+</html>
